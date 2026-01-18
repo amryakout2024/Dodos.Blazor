@@ -1,4 +1,42 @@
-﻿*@
+﻿         "images/cheesecake.jpg",
+        "images/dispacetolarge.jpg",
+        "images/dispacetomedium.jpg",
+        "images/dispacetosmall.jpg",
+        "images/dispacetowhitelarge.jpg",
+        "images/dispacetowhitesmall.jpg",
+        "images/fadegchocolate.jpg",
+        "images/fadegchocolatejamal.jpg",
+        "images/fadegchocolatenuts.jpg",
+        "images/fadegchocolatetuffy.jpg",
+
+<div class="m-3 image-grid">
+    @foreach (var img in Images)
+    {
+        <div class="image-card">
+            <img src="@img" />
+            <h4 class="text-center">حلويات</h4>
+        </div>
+    }
+</div>
+ *@
+@* @* 
+@code {
+    List<string> Images = new()
+    {
+        "images/cheesecake.jpg",
+        "images/dispacetolarge.jpg",
+        "images/dispacetomedium.jpg",
+        "images/dispacetosmall.jpg",
+        "images/dispacetowhitelarge.jpg",
+        "images/dispacetowhitesmall.jpg",
+        "images/fadegchocolate.jpg",
+        "images/fadegchocolatejamal.jpg",
+        "images/fadegchocolatenuts.jpg",
+        "images/fadegchocolatetuffy.jpg",
+    };
+} *@ *@
+
+*@
 <div class="container-fluid px-0">
     <div class="row gx-0">
         <div class="col-lg-3 bg-dark d-none d-lg-block">
