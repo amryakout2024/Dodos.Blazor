@@ -8,12 +8,12 @@
     <ResourcePreloader />
     <link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
     <link rel="stylesheet" href="@Assets["app.css"]" />
-    <link rel="stylesheet" href="@Assets["Dodos.styles.css"]" />
+    <link rel="stylesheet" href="@Assets["DodosWA.styles.css"]" />
 
     <!--import my css style wwwroot is static folder contain static files-->
-    <link rel="stylesheet" href="css/HeaderStyleSheet.css"/>
-    <link rel="stylesheet" href="css/FooterStyleSheet.css"/>
-    <link rel="stylesheet" href="css/MainStyleSheet.css"/>
+    <link rel="stylesheet" href="css/HeaderStyleSheet.css" />
+    <link rel="stylesheet" href="css/FooterStyleSheet.css" />
+    <link rel="stylesheet" href="css/MainStyleSheet.css" />
     <!--Add mudblazor-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
@@ -24,17 +24,13 @@
 </head>
 
 <body>
-    <MudThemeProvider />
-    <MudPopoverProvider />
-    <MudDialogProvider />
-    <MudSnackbarProvider />
 
     <Routes />
-    <ReconnectModal />
     <script src="@Assets["_framework/blazor.web.js"]"></script>
-    
+
     <!--Add mudblazor-->
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+
 </body>
 
 </html>

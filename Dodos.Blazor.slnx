@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="Dodos/Dodos.csproj" />
+  <Project Path="DodosWA/DodosWA.Client/DodosWA.Client.csproj" Id="635fbfe3-2168-4405-8850-0864197d373c" />
+  <Project Path="DodosWA/DodosWA/DodosWA.csproj" Id="c62ac435-8546-4441-a6f8-4d1e578f4be9" />
 </Solution>
