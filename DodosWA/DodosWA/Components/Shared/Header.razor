@@ -6,16 +6,30 @@
 inject IOptions<ContactInfoOptions> ContactInfoOptions
  *@
 
-<MudGrid Class="container-fluid">
-    <MudItem xs="12">
+
+<MudGrid Class="container-fluid" Style="position:sticky;top:0;z-index:1;background-color:white">
+    <MudItem xs="3" Class="d-flex align-items-center justify-content-center">
+        <MudText 
+            Style="color:deeppink"
+            Typo="Typo.h4" 
+            Align="Align.Center">حلويات دودوز
+        </MudText>
     </MudItem>
-    <MudSpacer/>
-    <MudItem>
+    <MudItem xs="6" Class="d-flex align-items-center">
+        <MudTextField T="string" Clearable="true" 
+            Variant="Variant.Outlined"
+            ClearIcon="@Icons.Material.Filled.Clear" Adornment="Adornment.End" 
+            AdornmentIcon="@Icons.Material.Filled.Search" 
+            Style="text-align:justify">
+        </MudTextField>
+    </MudItem>
+    <MudItem xs="3" Class="d-flex justify-content-center">
+        <MudImage src="images/dodoslogo.jpg" Class="d-block" alt="Dodo's Cakes Logo" width="100" height="100" />
     </MudItem>
 </MudGrid>
 
 
-<div class="container-fluid">
+@* <div class="container-fluid">
     <div class="row">
         <MudText 
             Style="align-items:center;color:deeppink"
@@ -29,6 +43,7 @@ inject IOptions<ContactInfoOptions> ContactInfoOptions
         </div>
     </div>
 </div>
+ *@
 
 
 @code {
