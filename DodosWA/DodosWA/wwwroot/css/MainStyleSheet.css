@@ -1,7 +1,8 @@
 ﻿body {
 }
-.anchor-style{
-    color:whitesmoke
+/** my Style ***/
+.anchor-style {
+    color: white
 }
 .image-grid {
     display: grid;
